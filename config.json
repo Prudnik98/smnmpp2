@@ -9,7 +9,7 @@
 		"kickban": [4, 6000],
 		"channelset": [10, 5000],
 		"ls": [4, 6000],
-		"userset": [8, 720000],
+		"userset": [0, 000000],
 		"custom": [30, 2000],
 		"note": 1200,
 		"clients": 4,
