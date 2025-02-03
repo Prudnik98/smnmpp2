@@ -1311,7 +1311,7 @@ $(function () {
   var wssport = 8080;
   var isSecure = location.protocol == 'https:';
   var gClient = new Client(`${isSecure ? 'wss' : 'ws'}://${location.host}`);
-  //var gClient = new Client(`${isSecure ? 'wss' : 'ws'}://tin.mpp.8448.space`); // smn serv
+  //var gClient = new Client(`${isSecure ? 'wss' : 'ws'}://multiplayerpiano.io`); // smn serv
   if (loginInfo) {
     gClient.setLoginInfo(loginInfo);
   }
